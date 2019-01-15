@@ -31,10 +31,5 @@ dependencies {
 
 mainClassName = 'edu.isu.cs.cs3308.Driver'
 
-public class main {
-   public void main(String[] args)
-    {
-        System.out.println("Hello World");
-    }
-}
+///This is to see if things work
 
