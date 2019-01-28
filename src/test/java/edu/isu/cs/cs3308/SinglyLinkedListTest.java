@@ -1,5 +1,6 @@
 package edu.isu.cs.cs3308;
 
+import edu.isu.cs.cs3308.structures.impl.CircularlyLinkedList;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import java.io.IOException;
@@ -7,7 +8,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
-import edu.isu.cs.cs3308.structures.impl.SinglyLinkedList;
+import edu.isu.cs.cs3308.structures.impl.CircularlyLinkedList;
 
 /**
  * @author Isaac Griffith
@@ -16,7 +17,7 @@ public class SinglyLinkedListTest {
 
     @Test
     public void testIndexOf() {
-        SinglyLinkedList<Integer> list = new SinglyLinkedList<>();
+        CircularlyLinkedList<Integer> list = new CircularlyLinkedList<>();
         list.addLast(1);
         list.addLast(2);
         list.addLast(3);
